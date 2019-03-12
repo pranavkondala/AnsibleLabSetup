@@ -21,6 +21,18 @@ You can read more at [www.docker.com](https://www.docker.com/)
 
 # Quick start
 
+## Install Docker
+
+Install docker on your Linux machine:
+
+Update apt-get
+
+`apt-get update`
+
+Install docker
+
+`apt install docker-compose`
+
 ## Clone repository
 
 Clone this git repository:
