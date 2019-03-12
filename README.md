@@ -135,8 +135,6 @@ And host containers add SSH public key to authorized_keys file ([ansible/host/ru
 
     cat /var/ans/master_key.pub >> /root/.ssh/authorized_keys
 
-**IMPORTANT:** this is valid setup for lab environment but for production deployment you have to distribute the public key other way.
-
 # Troubleshooting
 
 ## Host containers stop after creation
