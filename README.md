@@ -47,6 +47,9 @@ Build docker images and run containers in the background (details defined in [do
 
 `docker-compose up -d --build`
 
+**IMPORTANT**: If you get the following error, try using `sudo`.
+    `Couldn't connect to Docker daemon at http+docker://localunixsocket - is it running?`
+
 Connect to **master node**:
 
 `docker exec -it master01 bash`
