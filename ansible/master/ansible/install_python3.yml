@@ -1,6 +1,6 @@
 ---
 - hosts: myhosts
   tasks:
-    - name: Install PHP
+    - name: Install Python3
       apt: name=python3-pip state=present update_cache=yes
       become: true
