@@ -89,7 +89,7 @@ Install PHP on web **inventory group**:
 
 In order to group managed hosts for easier maintenance you can use groups in ansible [inventory file](./ansible/master/ansible/inventory).
 
-Run a [sample ansible playbook](./ansible/master/ansible/install_php.yml):
+Run a [sample ansible playbook](./ansible/master/ansible/install_python3.yml):
 
 `ansible-playbook -i inventory install_python3.yml`
 
